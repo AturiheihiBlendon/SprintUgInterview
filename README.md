@@ -25,3 +25,7 @@ Run the app:
 
 ## NOTE
 Database credentials are in the .env file
+
+Incase you run the server and it fails to connect to database saying Bad Aunthentication 
+change variable name `USER` in the `.env` file to anything of your choice e.g `MONGOUSER` 
+and update it on line `line 15` in `server.js` 
